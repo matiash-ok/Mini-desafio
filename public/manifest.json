@@ -1,0 +1,17 @@
+{
+    "short_name":"Grupo Gestion",
+    "name":"Grupo Gestion",
+    "icons": [
+            {
+              "src": "favicon.png",
+              "type": "image/png",
+              "sizes": "20x20"
+            }
+          ],
+    "display":"standalone",
+    "theme_color":"#fff",
+    "background_color":"#fff",
+    "lang":"es-MX",
+    "start_url": "/"
+
+}

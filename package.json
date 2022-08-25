@@ -1,0 +1,52 @@
+{
+  "name": "grupo-gestion",
+  "version": "1.0.0",
+  "description": "pagina web para grupo gestion ",
+  "main": "index.js",
+  "scripts": {
+    "jsontest": "npx json-server --port 3001 --watch db.json",
+    "test": "npm run test",
+    "start": "webpack-cli serve --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "--"
+  },
+  "keywords": [
+    "grupo-gestion"
+  ],
+  "author": "jphlions-team",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^6.7.1",
+    "dotenv": "^16.0.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "interpolate-html-plugin": "^4.0.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "workbox-webpack-plugin": "^6.5.3"
+  },
+  "dependencies": {
+    "escape-string-regexp": "^5.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "workbox-core": "^6.5.3",
+    "workbox-expiration": "^6.5.3",
+    "workbox-precaching": "^6.5.3",
+    "workbox-routing": "^6.5.3",
+    "workbox-strategies": "^6.5.3"
+  }
+}
